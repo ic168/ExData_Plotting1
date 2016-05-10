@@ -39,7 +39,7 @@ lines(day, Sub_Metering_3, type = "l", col = "blue")
 ## Plot creates the initial Sub_Metering_1 line
 ## Lines creates the subsequent Sub_Metering_2 and 
 ## Sub_metering_3 lines, with colors red and blue
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, lwd = 2.5, col = c("black", "red", "blue"), bty = "o")
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, lwd = 2.5, col = c("black", "red", "blue"), bty = "n")
 ## Creates legend, setting it at the top right corner, labelling the
 ## three Sub_metering parameters and specifying their appropriate colors
 ## no border for legend 
